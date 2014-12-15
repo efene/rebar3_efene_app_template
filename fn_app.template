@@ -1,0 +1,9 @@
+{description, "Efene Application"}.
+{variables, [
+    {name, "myapp", "Name of the application"},
+    {desc, "An efene application", "Short description of the app"}
+]}.
+{template, "app.fn.dtl", "{{name}}/src/{{name}}.fn"}.
+{template, "rebar.config.dtl", "{{name}}/rebar.config"}.
+{template, "gitignore.dtl", "{{name}}/.gitignore"}.
+{template, "README.rst.dtl", "{{name}}/README.rst"}.

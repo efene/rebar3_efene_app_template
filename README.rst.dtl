@@ -1,0 +1,19 @@
+{{name}}
+=====
+
+{{desc}}
+
+Build
+-----
+
+    $ rebar3 efene
+
+TODO
+----
+
+* define license and create LICENSE file
+
+License
+-------
+
+TODO

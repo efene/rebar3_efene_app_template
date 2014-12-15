@@ -1,0 +1,7 @@
+
+fn hello
+    @public
+
+    case Name:
+        io.format("Hello ~s!", [Name])
+end
