@@ -3,7 +3,7 @@
     {name, "myapp", "Name of the application"},
     {desc, "An efene application", "Short description of the app"}
 ]}.
-{template, "fn_app.fn.dtl", "{{name}}/src/{{name}}.fn"}.
-{template, "fn_app_rebar.config.dtl", "{{name}}/rebar.config"}.
-{template, "fn_app_gitignore.dtl", "{{name}}/.gitignore"}.
-{template, "fn_app_README.rst.dtl", "{{name}}/README.rst"}.
+{template, "fn_app.fn.dtl", "src/{{name}}.fn"}.
+{template, "fn_app_rebar.config.dtl", "rebar.config"}.
+{template, "fn_app_gitignore.dtl", ".gitignore"}.
+{template, "fn_app_README.rst.dtl", "README.rst"}.
