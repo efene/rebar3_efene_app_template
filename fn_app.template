@@ -5,6 +5,7 @@
 ]}.
 {template, "fn_app.app.src.dtl", "src/{{name}}.app.src"}.
 {template, "fn_app.fn.dtl", "src/{{name}}.fn"}.
+{template, "fn_app_suite.fn.dtl", "test/{{name}}_SUITE.fn"}.
 {template, "fn_app_rebar.config.dtl", "rebar.config"}.
 {template, "fn_app_gitignore.dtl", ".gitignore"}.
 {template, "fn_app_README.rst.dtl", "README.rst"}.

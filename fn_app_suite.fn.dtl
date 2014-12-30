@@ -1,0 +1,17 @@
+
+fn all
+    @public
+    case: [pass, fail]
+end
+
+fn pass
+    @public
+    case _:
+        1 = 1
+end
+
+fn fail
+    @public
+    case _:
+        2 = 1
+end
