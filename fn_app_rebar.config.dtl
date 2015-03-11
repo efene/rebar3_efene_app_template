@@ -1,6 +1,6 @@
 {erl_opts, [debug_info]}.
 {deps, []}.
 {plugins, [
-    {efene_rebar3_plugin, ".*", {git, "https://github.com/efene/efene_rebar3_plugin.git", {branch, "master"}}},
-    {efene_ct_rebar3, ".*", {git, "https://github.com/efene/efene_ct_rebar3.git", {branch, "master"}}}
+    {rebar3_efene_compile, ".*", {git, "https://github.com/efene/rebar3_efene_compile.git", {branch, "master"}}},
+    {rebar3_efene_ct, ".*", {git, "https://github.com/efene/rebar3_efene_ct.git", {branch, "master"}}}
 ]}.
