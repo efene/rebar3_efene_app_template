@@ -7,11 +7,11 @@ end
 fn pass
     @public
     case _:
-        1 = 1
+        5 = {{name}}.add(2, 3)
 end
 
 fn fail
     @public
     case _:
-        2 = 1
+        2 = {{name}}.add(1, 0)
 end

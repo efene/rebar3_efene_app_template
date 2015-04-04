@@ -1,7 +1,10 @@
 
-fn hello
-    @public
+fn hello @public
+  case Name:
+    io.format("Hello ~s!~n", [Name])
+end
 
-    case Name:
-        io.format("Hello ~s!", [Name])
+fn add @public
+  case A, B:
+    A + B
 end
