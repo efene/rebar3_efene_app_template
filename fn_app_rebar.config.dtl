@@ -1,7 +1,12 @@
-{erl_opts, [debug_info]}.
-{deps, []}.
+{deps, [
+    {lager, {git, "https://github.com/basho/lager.git", {tag, "2.1.1"}}}
+]}.
+
 {plugins, [
     {rebar3_efene_compile, ".*", {git, "https://github.com/efene/rebar3_efene_compile.git", {branch, "master"}}},
     {rebar3_efene_ct, ".*", {git, "https://github.com/efene/rebar3_efene_ct.git", {branch, "master"}}}
 ]}.
+
 {provider_hooks, [{pre, [{ct, {efene, ct}}, {compile, {efene, compile}}]}]}.
+
+{erl_opts, [debug_info, {parse_transform, lager_transform}]}.
