@@ -10,3 +10,4 @@
 {template, "fn_app_editorconfig.dtl", "{{name}}/.editorconfig"}.
 {template, "fn_app_gitignore.dtl", "{{name}}/.gitignore"}.
 {template, "fn_app_README.rst.dtl", "{{name}}/README.rst"}.
+{template, "fn_app_Makefile", "{{name}}/Makefile"}.
