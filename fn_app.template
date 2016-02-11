@@ -1,12 +1,12 @@
-{description, "Efene Application"}.
+{description, "Efene OTP Application"}.
 {variables, [
     {name, "myapp", "Name of the application"},
     {desc, "An efene application", "Short description of the app"}
 ]}.
-{template, "fn_app.app.src.dtl", "src/{{name}}.app.src"}.
-{template, "fn_app.fn.dtl", "src/{{name}}.fn"}.
-{template, "fn_app_suite.fn.dtl", "test/{{name}}_SUITE.fn"}.
-{template, "fn_app_rebar.config.dtl", "rebar.config"}.
-{template, "fn_app_editorconfig.dtl", ".editorconfig"}.
-{template, "fn_app_gitignore.dtl", ".gitignore"}.
-{template, "fn_app_README.rst.dtl", "README.rst"}.
+{template, "fn_app.app.src.dtl", "{{name}}/src/{{name}}.app.src"}.
+{template, "fn_app.fn.dtl", "{{name}}/src/{{name}}.fn"}.
+{template, "fn_app_suite.fn.dtl", "{{name}}/test/{{name}}_SUITE.fn"}.
+{template, "fn_app_rebar.config.dtl", "{{name}}/rebar.config"}.
+{template, "fn_app_editorconfig.dtl", "{{name}}/.editorconfig"}.
+{template, "fn_app_gitignore.dtl", "{{name}}/.gitignore"}.
+{template, "fn_app_README.rst.dtl", "{{name}}/README.rst"}.

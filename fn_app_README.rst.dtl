@@ -8,14 +8,14 @@ Build
 
 ::
 
-    rebar3 efene compile
+    rebar3 compile
 
 Test
 ----
 
 ::
 
-    rebar3 efene ct
+    rebar3 ct
 
 TODO
 ----
