@@ -4,9 +4,9 @@ fn all @public
 end
 
 fn pass @public case _:
-  5 = {{name}}.add(2, 3)
+  5 = {{name}}_util.add(2, 3)
 end
 
 fn fail @public case _:
-  2 = {{name}}.add(1, 0)
+  2 = {{name}}_util.add(1, 0)
 end
