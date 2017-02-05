@@ -1,6 +1,6 @@
 {deps, [lager]}.
 
-{plugins, [rebar3_efene_compile, rebar3_efene_ct]}.
+{plugins, [rebar3_efene]}.
 
 {provider_hooks, [{pre, [{ct, {efene, ct}}, {compile, {efene, compile}}]}]}.
 
